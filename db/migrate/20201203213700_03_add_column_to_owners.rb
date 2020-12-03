@@ -1,4 +1,4 @@
-class 03AddColumnToOwners < ActiveRecord::Migration[5.2]
+class AddColumnToOwners < ActiveRecord::Migration[5.2]
   def up
     add_column :owners, :pet_id, :integer
   end
