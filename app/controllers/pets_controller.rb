@@ -7,7 +7,6 @@ class PetsController < ApplicationController
 
   get '/pets/new' do
     @owners = Owner.all
-    redirect to '/pets/:id'
     erb :'/pets/new'
   end
 
